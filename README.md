@@ -28,5 +28,11 @@ $ node --harmony example.js
 
 Then visit `http://localhost:3000/?combo=example-parts/part1.js,example-parts/part2.js`, you will get the combined version of `example-parts/part1.js` and `example-parts/part2.js`. Files are concatenated by the given order in query string.
 
+### Testing
+
+```
+$ npm test
+```
+
 ### License
 MIT
