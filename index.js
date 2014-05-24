@@ -8,8 +8,8 @@ module.exports = combo;
 
 function *combo(next) {
   var regex = /combo=[^&]*/,
-    comboList = regex.exec(this.querystring);
-
+    comboList = regex.exec(decodeURIComponent(this.querystring));
+  
   yield next;
 
   if (!comboList) {
