@@ -1,7 +1,7 @@
 {
   "name": "koa-combo",
   "version": "1.0.0",
-  "description": "Koa middleware for combining static files to reduce http request",
+  "description": "Koa middleware for combining static files to reduce number of http requests",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
