@@ -1,0 +1,32 @@
+{
+  "name": "koa-combo",
+  "version": "1.0.0",
+  "description": "Koa middleware for combining static files to reduce http request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tjwudi/koa-combo"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "combo"
+  ],
+  "author": "John Wu <webmaster@leapoahead.com> (https://github.com/tjwudi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwudi/koa-combo/issues"
+  },
+  "homepage": "https://github.com/tjwudi/koa-combo",
+  "devDependencies": {
+    "koa": "~0.6.1",
+    "mocha": "~1.19.0",
+    "should": "~3.3.2"
+  },
+  "dependencies": {
+    "thunkify": "~2.1.1"
+  }
+}
