@@ -28,6 +28,7 @@
     "supertest": "^0.13.0"
   },
   "dependencies": {
-    "thunkify": "~2.1.1"
+    "thunkify": "~2.1.1",
+    "underscore": "^1.6.0"
   }
 }
