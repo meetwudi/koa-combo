@@ -1,6 +1,6 @@
 {
   "name": "koa-combo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Koa middleware for combining static files to reduce number of http requests",
   "main": "index.js",
   "scripts": {
